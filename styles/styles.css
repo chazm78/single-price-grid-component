@@ -84,6 +84,11 @@ main {
     border: none;
     border-radius: 5px;
     font-weight: var(--fw2);
+    transition-duration: 0.5s;
+}
+.btn:hover {
+    background-color: var(--white);
+    color: var(--yellow);
 }
 /* end .sub styles */
 
